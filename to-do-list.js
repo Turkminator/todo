@@ -49,3 +49,5 @@ function addTodo() {
   dateInputElement.value='';
   renderTodoList();
 } 
+
+console.log("değişiklik")
