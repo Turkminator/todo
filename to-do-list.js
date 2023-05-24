@@ -50,4 +50,4 @@ function addTodo() {
   renderTodoList();
 } 
 
-console.log("değişiklik")
+console.log("version3")
