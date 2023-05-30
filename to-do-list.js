@@ -17,12 +17,12 @@ function renderTodoList(){
     //const dueDate = todoObject.dueDate;
     const {name, dueDate} = todoObject;
     const html = `
-      <p>${name} ${dueDate}
-        <button onclick="
-          todoList.splice(${i}, 1);
-          renderTodoList();
-        ">Delete</button>
-      </p>
+      <div>${name}</div>
+      <div>${dueDate}</div>
+      <button class="delete-todo-button" onclick="
+        todoList.splice(${i}, 1);
+        renderTodoList();
+      ">Delete</button>
     `;
     todoListHTML += html;
   }
@@ -50,4 +50,4 @@ function addTodo() {
   renderTodoList();
 } 
 
-console.log("version4")
+console.log("güncel v1")
